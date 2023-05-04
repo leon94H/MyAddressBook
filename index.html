@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  <!-- link favicon -->
+  <link rel="icon" type="image/x-icon" href="./image/favicon.png">
+  
+  <!-- link font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+  
+  
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- link bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+  
+  <!-- link CSS  -->
+  <link rel="stylesheet" href="style.css">
+  
+  <title>My address-book</title>
+  
+</head>
+
+
+
+<body>
+  
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-3">
+
+        <button class="text-center mt-5 back-color title-custom">LA MIA RUBRICA</button>
+
+      </div>
+    </div>
+  </div>
+ 
+  
+  <!-- inizio sezione bottoni e imput -->
+  
+  <section class="container-fluid">
+    
+    <div class="row">
+      
+      <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
+        <button class="btn btn-custom bg-danger" id="showContactsBtn" >Mostra rubrica</button>
+      </div>
+      
+      <div class="col-12 col-lg-6 d-flex justify-content-center flex-column align-items-center ">
+        
+        <div class="input-group mt-4 mb-3">
+          <input id="nameInput" type="text" class="form-control" placeholder="Nome" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+        
+        
+        
+        <div class="input-group mb-3">
+          <input id="numberInput" type="number" class="form-control" placeholder="Contatto" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+        
+      </div>
+      
+      <div class="col-12 col-lg-3">
+        <button class="btn btn-custom bg-danger my-3" id="addContactBtn">Aggiungi contatto</button> <br>
+        <button class="btn btn-custom bg-danger my-3" id="removeContactBtn">Rimuovi contatto</button> <br>
+       
+      </div>
+      
+    </div>
+
+  </section>
+    
+    
+  <!-- fine sezione bottoni e imput -->
+    
+    
+  <!-- inizio sezione contatti -->
+  
+  <section class="container-fluid">
+    <div class="row justify-content-center" id="cardWrapper">
+      <div class="col-md-12 col-lg-8 my-3">
+
+        <!-- <div class="card-custom">
+
+          <h5>Nome contatto</h5>
+          <h5>Numero contatto</h5>
+          <i class="fa-regular fa-trash-can fa-2x pointer icon"></i>
+
+        </div> -->
+
+  <section class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-8 my-3">
+
+        <!-- <div class="card-custom">
+
+          <h4>Nome contatto</h4>
+          <h4>Numero contatto</h4>
+          <i class="fa-regular fa-trash-can fa-2x pointer icon"></i>
+
+        </div> -->
+
+      </div>
+    </div>
+  </section>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid ">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-8 my-3">
+
+        <!-- <div class="card-custom">
+
+          <h5>Nome contatto</h5>
+          <h5>Numero contatto</h5>
+          <i class="fa-regular fa-trash-can fa-2x pointer icon"></i>
+
+        </div> -->
+
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid ">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-8 my-3">
+
+        <!-- <div class="card-custom">
+
+          <h5>Nome contatto</h5>
+          <h5>Numero contatto</h5>
+          <i class="fa-regular fa-trash-can fa-2x pointer icon"></i>
+
+        </div> -->
+
+      </div>
+    </div>
+  </section>
+    
+    
+    
+    
+    
+    
+ 
+  
+  <!-- link main JS -->
+  <script src="main.js"></script>
+  
+  <!-- link JS bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
